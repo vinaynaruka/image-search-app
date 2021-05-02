@@ -20,6 +20,7 @@ export class HomeComponent implements OnInit {
   submitted = false;
 
   ngOnInit(): void {
+    this.search();
   }
 
   search() {
